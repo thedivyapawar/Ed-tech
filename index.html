@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ed-Tech</title>
+    <!-- Bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Style css file -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- Bootstrap icon -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <!-- Container Fluid Start  -->
+     <div class="container-fluid bg-color-voilet">
+
+        <!-- Navbar GRid Start -->
+        <div class="row justify-content-center bg-color-voilet">
+            <div class="col-md-10">
+                <nav class="navbar navbar-expand-lg bg-color-voilet">
+                    <div class="container-fluid">
+                      <a class="navbar-brand fs-2 fw-bold" href="./index.html">Ed-Tech.</a>
+
+                      <!-- Hamburger button -->
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <!-- Hamburger button end -->
+
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 ">
+                          <li class="nav-item px-2">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link" href="./pages/About.html">About</a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link" href="./pages/courses.html">Courses</a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link" href="./pages/contact.html">Contacts</a>
+                          </li>
+                        </ul>
+
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-voilet me-3" type="button">
+                                <a class="nav-link" href="./pages/signin.html">Sign-in</a>
+                            </button>
+                          <button class="btn btn-voilet " type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Free Trial</button>
+                        </form>
+
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <!-- navbar grid end -->
+
+                <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-6" id="exampleModalLabel">Get your Free Trial!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <input type="text" placeholder="Enter your email " class="modal-input w-100 p-2 rounded-3">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-voilet" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-voilet">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal end -->
+
+         <!-- Hero Section -->
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 py-5 text-center  text-md-start">
+            <h1 class="fs-1 fw-bolder">Develop your skills in a new and <span class="unique-text-gradient">  unique way </span></h1>
+            <p class="my-4">
+              Explore a transformative approach to skill development on our online learning platform. Uncover a new realm of learning experiences and elevate your expertise in unique ways.
+            </p>
+            <div class="d-flex gap-4 align-items-center justify-content-center justify-content-md-start">
+                <button class="btn btn-voilet">Enroll Now</button>
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-play-circle-fill me-2 fs-5 bg-icon-color"></i>
+                  <span style="font-size: 14px; cursor: pointer;"><u>What's Ed-Tech?</u></span>
+                </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="./assets/images/hero-image.png" class="img-fluid" alt="hero-image">
+          </div>
+        </div>
+         <!-- Hero Section end -->
+
+         <!-- Company section  start -->
+            <div class="row justify-content-center bg-voilet">
+              <div class="col-md-9 fs-4 company-text"> 
+                <div class="row py-3">
+                <div class="col-3  d-flex justify-content-center align-items-center company-icon" >
+                  <i class="bi bi-amazon  px-1 px-md-3"></i>Amazon
+                </div>
+                <div class="col-3  d-flex justify-content-center align-items-center company-icon">
+                  <i class="bi bi-skype px-1 px-md-3"></i>Skype
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center company-icon ">
+                  <i class="bi bi-linkedin  px-1 px-md-3"></i>Linkedin
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center company-icon">
+                  <i class="bi bi-apple  px-1 px-md-3"></i>Apple
+                </div>
+              </div>
+                
+              </div>
+            </div>
+         <!-- Company section end -->
+
+         <!-- Search courses start -->
+          <div class="row justify-content-center my-4 ">
+            <div class="col-md-6" >
+              <p class="text-center fs-4 fw-bold">Search Courses</p>
+
+              <div class="d-flex justify-content-center align-items-center">
+
+                <div class="search-parent mx-0 mx-md-2">
+                  <input type="text" class="search-courses-input " placeholder="Search for over 50+ courses"> 
+                  <i class="bi bi-search-heart heart-icon"></i>
+                </div>
+
+                <button class="btn btn-voilet">Search</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row justify-content-center align-items-center mt-5">
+            <div class="col-md-4">
+              <img src="./assets/images/search-courses.png" alt="search-course" class="img-fluid">
+            </div>
+
+            <div class="col-md-5">
+              <h3 class="fs-4 mb-3 text-center  text-md-start"> <span class="unique-text-gradient">Benefits </span> From Our Online Learning </h3>
+
+              <div class="row align-items-center mt-2">
+
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                  <i class="bi bi-mortarboard px-3 py-2 bg-icon-voilet rounded-circle text-white fs-3"></i>
+                </div>
+
+                <div class="col-9">
+                  <h3 class="fs-5  course-title">Online Degrees</h3>
+                  <p class="courses-para-tag">Earn accredited degrees from the comfort of your home, opening doors to a world of possibilities.</p>
+                </div>
+
+              </div>
+
+              <div class="row align-items-center mt-2">
+
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                  <i class="bi bi-book px-3 py-2 bg-icon-pink rounded-circle text-white fs-3"></i>
+                </div>
+
+                <div class="col-9 ">
+                  <h3 class="fs-5 course-title">Short Courses</h3>
+                  <p class="courses-para-tag">Enhance your skills with our concise and focused short courses, designed for quick and effective learning.
+
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="row align-items-center mt-2">
+
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                  <i class="bi bi-person-fill px-3 py-2 bg-icon-voilet rounded-circle text-white fs-3"></i>
+                </div>
+
+                <div class="col-9 ">
+                  <h3 class="fs-5 course-title">Training From Experts
+                  </h3>
+                  <p class="courses-para-tag">Immerse yourself in knowledge with industry experts guiding you through hands-on experience.</p>
+                </div>
+
+              </div>
+
+              <div class="row align-items-center mt-2">
+
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                  <i class="bi bi-play-circle-fill px-3 py-2 bg-icon-pink rounded-circle text-white fs-3"></i>
+                </div>
+
+                <div class="col-9 ">
+                  <h3 class="fs-5 course-title">1.5k+ Video Courses
+                  </h3>
+                  <p class="courses-para-tag">Dive into a vast library of over 1.5k video courses covering many subjects, offering a visual learning experience.</p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+         <!-- Search courses end -->
+
+         <!-- Popular course start -->
+          <div class="row justify-content-center my-3 py-5 popular-row">
+            <div class="col-md-9">
+
+              <h3 class="fs-3 mb-3 text-center text-white">Our Popular Courses</h3>
+              <p class="course-para-tag text-white">Discover our most sought-after courses, carefully curated to meet the demands of today's learners. Dive into engaging content crafted for success in every step of your educational journey.</p>
+
+              <div class="row justify-content-around px-3" style="box-sizing: border-box;">
+                <div class="col-sm-3 p-2 rounded-4 bg-white my-2 d-flex flex-column">
+                  <div style="height: 200px;">
+                    <img src="./assets/images/card-1.jpg" alt="card-1" class="img-fluid rounded-4 w-100 h-100">
+                  </div>
+
+                  <div class="row justify-content-between align-items-center">
+                    <div class="col-6 card-text d-flex align-items-center">
+                      <i class="bi bi-dot icon-color fs-3 "></i>
+                      Web Design
+                    </div>
+
+                    <div class="col-4 card-text">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      4.9
+                    </div> 
+                  </div>
+
+                  <h3 class="fs-6 mb-3 ps-2">Web Design & Development</h3>
+
+                  <div class="row ps-2">
+                    <div class="col-6 card-text ">
+                      <i class="bi bi-book icon-color"></i>
+                      25 classes
+                    </div>
+                    <div class="col-6 card-text ">
+                      <i class="bi bi-person-fill icon-color"></i>
+                      185 students</div>
+                  </div>
+
+                  <hr>
+
+                  <h3 class="fs-6 ps-2">$560.00</h3>
+
+                </div>
+
+                
+                <div class="col-sm-3 p-2 rounded-4 bg-white my-2">
+                  <div style="height: 200px;">
+                      <img src="./assets/images/card-2.jpg" class="img-fluid rounded-4 w-100 h-100">
+                  </div>
+                  <div class="row justify-content-between align-items-center">
+                      <div class="col-6 card-text d-flex align-items-center"><i class="bi bi-dot icon-color fs-3"></i> Web Design</div>
+                      <div class="col-4 card-text"><i class="bi bi-star-fill text-warning"></i> 4.9</div>
+                  </div>
+                  <h3 class="fs-6 mb-3 ps-2">Web Design & Development</h3>
+                  <div class="row ps-2">
+                      <div class="col-6 card-text"><i class="bi bi-book icon-color"></i> 25 Classes</div>
+                      <div class="col-6 card-text"><i class="bi bi-person-fill icon-color"></i> 185 Students</div>
+                  </div>
+                  <hr>
+                  <h3 class="fs-6 ps-2">$ 560.00</h3>
+              </div>
+
+              <div class="col-sm-3 p-2 rounded-4 bg-white my-2">
+                  <div style="height: 200px;">
+                      <img src="./assets/images/card-3.jpg" class="img-fluid rounded-4 w-100 h-100">
+                  </div>
+                  <div class="row justify-content-between align-items-center">
+                      <div class="col-6 card-text d-flex align-items-center"><i class="bi bi-dot icon-color fs-3"></i> Web Design</div>
+                      <div class="col-4 card-text"><i class="bi bi-star-fill text-warning"></i> 4.9</div>
+                  </div>
+                  <h3 class="fs-6 mb-3 ps-2">Web Design & Development</h3>
+                  <div class="row ps-2">
+                      <div class="col-6 card-text"><i class="bi bi-book icon-color"></i> 25 Classes</div>
+                      <div class="col-6 card-text"><i class="bi bi-person-fill icon-color"></i> 185 Students</div>
+                  </div>
+                  <hr>
+                  <h3 class="fs-6 ps-2">$ 560.00</h3>
+              </div>
+
+            </div>
+            </div>
+          </div> 
+
+         <!-- popular course end -->
+
+
+         <!-- Certified Instructor Start -->
+
+
+         <div class="row justify-content-center align-items-center instructor-row ">
+          <div class="col-md-5">
+            <h3 class="fs-2 instructor-title ">If You Are A Certified Teacher Then <span class="unique-text-gradient">Become An Instructor </span></h3>
+            <p class="fs-6 instructor-subtitle my-4">Unlock the opportunity to inspire and educate by joining our team of instructors. If you're a certified teacher, elevate your impact and share your expertise with learners worldwide.</p>
+
+            <h3 class="perks-title">Enjoy many perks</h3>
+
+            <div class="row align-items-center">
+              <div class="col-6">
+                <div class="div-perks-1 perks-text d-flex align-items-center justify-items-center ">
+                  <i class="bi bi-dot icon-color fs-3 "></i>
+                   Global Impact
+                </div>
+
+                <div class="div-perks-1 perks-text d-flex align-items-center justify-items-center ">
+                  <i class="bi bi-dot icon-color fs-3 "></i>
+                  Flexible Schedule
+                </div> 
+                
+                <div class="div-perks-1 perks-text d-flex align-items-center justify-items-center ">
+                  <i class="bi bi-dot icon-color fs-3 "></i>
+                  Innovative Teaching Tools
+                </div>
+
+                <div class="div-perks-1 perks-text d-flex align-items-center justify-items-center ">
+                  <i class="bi bi-dot icon-color fs-3 "></i>
+                  Recognition And Reputation
+                </div>
+
+                
+              </div>
+              <div class="col-6">
+                <div class="div-perks-1 perks-text d-flex align-items-center justify-items-center ">
+                  <i class="bi bi-dot icon-color fs-3 "></i>
+                  Creative Freedom
+                </div>
+
+                <div class="div-perks-1 perks-text d-flex align-items-center justify-items-center ">
+                  <i class="bi bi-dot icon-color fs-3 "></i>
+                  Monetize Your Expertise
+                </div> 
+                
+                <div class="div-perks-1 perks-text d-flex align-items-center justify-items-center ">
+                  <i class="bi bi-dot icon-color fs-3 "></i>
+                  Professional Development
+                </div>
+
+                <div class="div-perks-1 perks-text d-flex align-items-center justify-items-center ">
+                  <i class="bi bi-dot icon-color fs-3 "></i>
+                  Networking Opportunities
+                </div>
+
+
+              </div>
+
+              <div class="row ">
+                <div class="col-12">
+                  <button class="btn-voilet m-3 px-5 py-1 rounded-1">Become an instructor</button>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+
+          <div class="col-md-4">
+            <img src="./assets/images/instructor2.png" alt="instructor-img" class="img-fluid p-3 ">
+            
+          </div>
+         </div>
+
+         <!-- Certified Instructor End -->
+
+         <!-- Get in Touch section -->
+
+         <div class="row justify-content-center my-5 px-4 get-in-touch  ">
+          <div class="col-md-6 bg-white  py-5 rounded-4">
+
+            <h1 class="text-center">Get in Touch!</h1>
+            <p class="text-center">Subscribe Us to get in touch and to enjoy discounts, promos and much more!</p>
+
+            <div class="div-wrap-button d-flex justify-content-center">
+              <input type="text" name="Email" id="email-id-in-touch" placeholder="Enter your email" class="me-3 px-2 py-2 bg-white input-touch rounded-3 w-50">
+            <button class="btn btn-voilet bg-white px-3 rounded-3 py-1  text-white">Subscribe</button>
+            </div>
+
+          </div>
+         </div>
+
+         <!-- Get in touch section end -->
+
+
+         <!-- ed-tech footer start -->
+         <div class="row justify-content-center bg-voilet py-5">
+          <div class="col-md-9">
+            <div class="row footer-row justify-content-between">
+              <div class="col-sm-2 text-center text-sm-start">
+                <h4 class="fs-2 my-3">Ed-Tech.</h4>
+                <p class="fs-6 footer-sub-title">Explore a transformative approach to skill development on our online learning platform.</p>
+                <i class="bi bi-facebook me-3"></i>
+                <i class="bi bi-whatsapp me-3"></i>
+                <i class="bi bi-instagram"></i>
+              </div>
+  
+              <div class="col-sm-2 d-none d-sm-block">
+                <ul >
+                  <li class="py-2 fs-5 fw-bold">Company</li>
+                  <li class="py-2" >About Us</li>
+                  <li class="py-2">Services</li>
+                  <li class="py-2">Community</li>
+                  <li class="py-2">Testimonials</li>
+                </ul>
+              </div>
+
+              <div class="col-sm-2 d-none d-sm-block">
+                <ul >
+                  <li class="py-2 fs-5 fw-bold">Support</li>
+                  <li class="py-2" >Help Center</li>
+                  <li class="py-2">Tweet @ Us</li>
+                  <li class="py-2">Webinars</li>
+                  <li class="py-2">Feedback</li>
+                </ul>
+              </div>
+
+              <div class="col-sm-2 d-none d-sm-block">
+                <ul >
+                  <li class="py-2 fs-5 fw-bold">Links</li>
+                  <li class="py-2" >Courses</li>
+                  <li class="py-2">Become Teacher</li>
+                  <li class="py-2">Service</li>
+                  <li class="py-2">All in one</li>
+                </ul>
+              </div>
+
+              <div class="col-sm-2 d-none d-sm-block">
+                <ul>
+                  <p class="fs-5 fw-bold">Contact  Us</p>
+                  <p>+1 (555) 123-4567</p>
+                  <p>edtech@gmail.com</p>
+                </ul>
+              </div>
+
+              <div class="row justify-content-start d-sm-none mt-4">
+                  <div class="col-5">
+                      <ul >
+                        <li class="py-2 fs-5 fw-bold">Company</li>
+                        <li class="py-2" >About Us</li>
+                        <li class="py-2">Services</li>
+                        <li class="py-2">Community</li>
+                        <li class="py-2">Testimonials</li>
+                      </ul>
+                    </div>
+      
+                    <div class="col-5">
+                      <ul >
+                        <li class="py-2 fs-5 fw-bold">Support</li>
+                        <li class="py-2" >Help Center</li>
+                        <li class="py-2">Tweet @ Us</li>
+                        <li class="py-2">Webinars</li>
+                        <li class="py-2">Feedback</li>
+                      </ul>
+                    </div>
+              </div>
+
+              <div class="row justify-content-start d-sm-none mt-4">
+                  <div class="col-5">
+                      <ul >
+                          <li class="py-2 fs-5 fw-bold">Links</li>
+                          <li class="py-2" >Courses</li>
+                          <li class="py-2">Become Teacher</li>
+                          <li class="py-2">Service</li>
+                          <li class="py-2">All in one</li>
+                      </ul>
+                    </div>
+      
+                    <div class="col-5">
+                      <ul>
+                          <p class="fs-5 fw-bold">Contact  Us</p>
+                          <p>+1 (555) 123-4567</p>
+                          <p>edtech@gmail.com</p>
+                        </ul>
+                    </div>
+              </div>
+
+              <hr>
+
+            </div>
+
+            <p class="text-center">Copyright @2024 Ed-Tech. All rights reserved</p>
+
+            
+              <div class="div-credit d-flex justify-content-center align-items-center">
+                <a href="https://www.linkedin.com/in/heydivyapawar/" class="text-center text-black pe-2 credit-link">Developed by Divya Pawar</a>
+              <i class="bi bi-arrow-right my-2 text-black"></i>
+              </div>
+            
+
+          </div>
+         </div>
+
+         <!-- Ed-footer end -->
+    
+     </div>
+     <!-- Container fluid end -->
+
+<!-- Bootstrap JS link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>

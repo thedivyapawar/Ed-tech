@@ -1,0 +1,116 @@
+
+.btn-voilet {
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    border : none;
+}
+
+.btn-voilet:hover{
+    color: black;
+}
+
+.btn-outline-voilet, .btn-outline-voilet:hover{
+    background-color: transparent;
+    border: 1px solid #e59cd1;
+}
+
+.bg-color-voilet{
+    background-color: #faf4fc;
+}
+
+.unique-text-gradient{
+    background: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.popular-row {
+    background-image: linear-gradient(170deg, #b772ff, #c87aea, #de82cf );
+}
+
+
+.hidden-row{
+    display: none;
+}
+
+.hidden-image{
+    width: 85%;
+    border-radius: 15px;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+    .about-title{
+        font-size: 16px !important;
+    }
+    
+    .about-sub-title{
+        font-size: 14px !important;
+    }
+
+    .left-part{
+        display: none;
+    }
+
+    .right-part{
+        width: 85%;
+    }
+
+    .hidden-row{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .right-part{
+        width: 100%;
+    }
+
+    .hidden-image{
+        width: 100%;
+    }
+}
+
+.btn-violet, .btn-violet:hover {
+    color:white;
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    border: none;
+}
+
+.btn-outline-violet, .btn-outline-violet:hover, .input-touch {
+    background-color: transparent;
+    border: 1px solid #e59cd1;
+}
+
+.modal-input {
+    outline: none;
+    border:1px solid #ec85bc;
+}
+
+.footer-row li{
+    list-style-type:none;
+}
+
+.footer-sub-title{
+    font-size: 15px !important;
+}
+
+.credit-link{
+    text-decoration: none;
+}
+
+.bg-voilet{
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    color: white;
+
+}
+
+.popular-row {
+    background-image: linear-gradient(170deg, #b772ff, #c87aea, #de82cf );
+}
+
+.contact-outline{
+    border: 2px solid white;
+}

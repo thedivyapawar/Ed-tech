@@ -1,0 +1,69 @@
+
+.btn-voilet {
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    border : none;
+}
+
+.btn-voilet:hover{
+    color: white;
+}
+
+.btn-outline-voilet, .btn-outline-voilet:hover{
+    background-color: transparent;
+    border: 1px solid #e59cd1;
+}
+
+.popular-row {
+    background-image: linear-gradient(170deg, #b772ff, #c87aea, #de82cf );
+}
+
+.contact-outline{
+    border: 2px solid white;
+}
+
+.outline{
+    border: 1px solid #ed9ad7;
+}
+
+.bg-color-voilet{
+    background-color: #faf4fc;
+}
+
+.btn-violet, .btn-violet:hover {
+    color:white;
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    border: none;
+}
+
+.btn-outline-violet, .btn-outline-violet:hover, .input-touch {
+    background-color: transparent;
+    border: 1px solid #e59cd1;
+}
+
+.modal-input {
+    outline: none;
+    border:1px solid #ec85bc;
+}
+
+.footer-row li{
+    list-style-type:none;
+}
+
+.footer-sub-title{
+    font-size: 15px !important;
+}
+
+.credit-link{
+    text-decoration: none;
+}
+
+.bg-voilet{
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    color: white;
+
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+

@@ -1,0 +1,158 @@
+.btn-voilet, .btn-voilet:hover {
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    border : none;
+    color: white;
+}
+
+.btn-outline-voilet, .btn-outline-voilet:hover, .input-touch{
+    background-color: transparent;
+    border: 1px solid #e59cd1;
+}
+
+.bg-color-voilet{
+    background-color: #faf4fc;
+}
+
+.bg-icon-color{
+    color:  #e59cd1;;
+
+}
+
+.bg-voilet{
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    color: white;
+
+}
+
+.company-icon:hover{
+    color: black;
+}
+
+
+.unique-text-gradient{
+    background: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* @media only  screen and (max-width:500px){
+    .company-text{
+    font-size : 14px !important;
+    }
+    
+} */
+
+@media only  screen and (max-width:700px){
+    .company-text{
+    font-size : 16px !important;
+    }
+
+    .courses-para-tag{
+        font-size: 12px !important;
+    }
+
+    .course-title{
+        font-size: 18px !important;
+    }
+
+    .instructor-subtitle{
+        font-size: 14px !important;
+    }
+
+    .instructor-title, .perks-title{
+        font-size: 22px !important;
+    }
+
+    .perks-text{
+        font-size: 12px !important;
+    }
+    
+}
+
+
+@media only  screen and (max-width:1000px),( min-width:700px){
+    .instructor-row{
+        margin: 50px 0px;
+     }
+    
+     .instructors-title{
+        font-size: 20px;
+     }
+}
+
+.search-parent{
+    width: 80%;
+    position: relative;
+}
+
+.heart-icon{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    color: #bf75f6;
+}
+
+.search-courses-input{
+    width: 100%;
+    padding: 8px 35px;
+    border-radius: 8px;
+    font-size: 14px ;
+    background-color: white;
+    border: none;
+}
+
+.search-courses-input:focus, .modal-input{
+    outline: none;
+    border: 1px solid #ec85bc;
+}
+
+.courses-para-tag{
+    font-size: 14px;
+}
+
+.bg-icon-voilet{
+    background-color: #bf75f6;
+}
+
+.bg-icon-pink{
+    background-color: #fe8fa8;
+}
+
+.popular-row {
+    background-image: linear-gradient(170deg, #b772ff, #c87aea, #de82cf );
+}
+.card-text{
+    font-size: 12px;
+}
+
+.icon-color {
+    color:#b772ff;
+}
+.perks-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-row li{
+    list-style-type:none;
+}
+
+.footer-sub-title{
+    font-size: 15px !important;
+}
+
+.credit-link{
+    text-decoration: none;
+}
+
+.input-touch:focus{
+    outline: none;
+}
+
+.get-in-touch{
+    
+    background-image: linear-gradient(to right, #bf75f6, #d87cdf, #ec85bc);
+    padding: 50px 0px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius :100px;
+}
